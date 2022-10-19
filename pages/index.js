@@ -39,6 +39,7 @@ export default function Home() {
           <input type="submit" value="Generate nicknames" />
         </form>
         <div className={styles.result}>{result}</div>
+        <h5>by <a href="https://twitter.com/miamieighties">me</a> using <a href="https://beta.openai.com/docs/introduction/overview">OpenAI's davinci-002 model</a></h5>
       </main>
     </div>
   );

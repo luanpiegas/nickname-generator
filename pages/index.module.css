@@ -23,12 +23,24 @@
   letter-spacing: -0.5px;
 }
 
-.main h3 {
+.main h3, 
+.main h5 {
   font-size: 35px;
   font-weight: bold;
   color: #FBF7F0;
   margin: 16px 0 40px;
   letter-spacing: -1px;
+  text-align: center;
+}
+
+.main h5 {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.main h5 a {
+  font-weight: bold;
+  color: #D9E4DD;
 }
 
 .main form {
