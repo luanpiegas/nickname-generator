@@ -23,20 +23,20 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OTP Nickname Generator</title>
+        <title>Nickname Generator</title>
       </Head>
 
       <main className={styles.main}>
-        <h3>OTP Nickname Generator</h3>
+        <h3>Nickname Generator</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
             name="character"
-            placeholder="Type your character here"
+            placeholder="Type the class, champion, vocation..."
             value={characterInput}
             onChange={(e) => setCharacterInput(e.target.value)}
           />
-          <input type="submit" value="Generate nicknames" />
+          <input type="submit" value="Generate nickname" />
         </form>
         <div className={styles.result}>{result}</div>
         <h5>by <a href="https://twitter.com/miamieighties">me</a> using the <a href="https://beta.openai.com/docs/introduction/overview">OpenAI text-davinci-002 model</a></h5>
