@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;700&display=swap');
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1E1C20;
+  font-family: "Figtree", sans-serif;
+}
+
+.main input {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  padding: 26px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0;
+  color: #CDC9C3;
+  background-color: #171619;
+  letter-spacing: -0.5px;
+}
+
+.main h3 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #FBF7F0;
+  margin: 16px 0 40px;
+  letter-spacing: -1px;
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.main ::placeholder {
+  color: #CDC9C3;
+  opacity: 1;
+}
+
+.main input[type="submit"] {
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  padding: 16px 0;
+  color: #171619;
+  background-color: #D9E4DD;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main input[type="submit"]:hover {
+  background-color: #FBF7F0;
+}
+
+.main .result {
+  font-weight: bold;
+  margin-top: 40px;
+  color: #FBF7F0;
+}
